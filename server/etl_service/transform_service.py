@@ -45,6 +45,11 @@ def __nan_value_manage__(df):
 def __duplicate_value_manage__(df):
     return df.dropDuplicates()
 
+def __remove_invalid_rows__(df):
+    # Supprimer les lignes où T2MWET < -30 ou RH2M < -30
+    df = df.filter((col("T2MWET") >= -30) & (col("RH2M") >= -30))
+    return df
+
 def __transformer_header__(df):
     # Dictionnaire de correspondance entre les anciennes colonnes et les nouvelles colonnes
     header_map = {
@@ -76,6 +81,8 @@ def cleaning_data(dataframe):
     df = __nan_value_manage__(df)
     # nan_value_manage
     df = __duplicate_value_manage__(df)
+    # error value manage
+    df = __remove_invalid_rows__(df)
 
     #convert pandas 
     df_cleaned = df.toPandas()

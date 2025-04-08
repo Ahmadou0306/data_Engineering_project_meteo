@@ -9,12 +9,16 @@ from etl_service.load_service import insert_postgres_data
 
 app = Flask(__name__)
 
-DELAY = 4 #Jours
+DELAY = 5 #Jours
 
 def extract():
     date_delay = datetime.today() - timedelta(days=DELAY)
-    date = date_delay.strftime("%Y%m%d")
-    return get_data(["senegal","mali","cote_d_ivoire","guinee","nigeria","ghana","burkina faso"],date,date)
+    end_date = date_delay.strftime("%Y%m%d")
+
+    start_date_delay = date_delay - timedelta(days=1)
+    start_date = start_date_delay.strftime("%Y%m%d")
+
+    return get_data(["Senegal","mali","cote_d_ivoire","guinee","nigeria","ghana","burkina faso"],start_date,end_date)
 
 def transform(df):
     return cleaning_data(df)
@@ -39,6 +43,9 @@ scheduler.add_job(task_etl, 'interval', hours=24)
 
 #task_etl()
 scheduler.start()
+
+# Lancement immédiat dés le démarage
+task_etl()
 
 @app.route('/')
 def home():
