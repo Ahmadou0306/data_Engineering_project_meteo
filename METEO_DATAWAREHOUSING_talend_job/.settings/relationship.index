@@ -1,0 +1,233 @@
+[ {
+  "baseItem" : {
+    "id" : "_GztwYBGtEfC7Y_XkFpEkVA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_k6CqwBGtEfC7Y_XkFpEkVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_q6NS4BGsEfC7Y_XkFpEkVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_k6CqwBGtEfC7Y_XkFpEkVA - dim_location",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_k6CqwBGtEfC7Y_XkFpEkVA - dim_temperature_humide",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_k6CqwBGtEfC7Y_XkFpEkVA - dim_temps",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_q6NS4BGsEfC7Y_XkFpEkVA - meteo_data",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_Swc8QBG6EfC7Y_XkFpEkVA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_uZrW8BO7EfCKJNgDD_FCMw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_q6NS4BGsEfC7Y_XkFpEkVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_q6NS4BGsEfC7Y_XkFpEkVA - meteo_data",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_zNXiQBG0EfC7Y_XkFpEkVA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_k6CqwBGtEfC7Y_XkFpEkVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_q6NS4BGsEfC7Y_XkFpEkVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_k6CqwBGtEfC7Y_XkFpEkVA - dim_location",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_k6CqwBGtEfC7Y_XkFpEkVA - dim_temperature_humide",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_k6CqwBGtEfC7Y_XkFpEkVA - dim_temps",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_k6CqwBGtEfC7Y_XkFpEkVA - meteo_fait",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_q6NS4BGsEfC7Y_XkFpEkVA - meteo_data",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]

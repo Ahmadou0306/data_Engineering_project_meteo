@@ -1,0 +1,45 @@
+{
+    "coord": {
+        "lon": -17.4467,
+        "lat": 14.692
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 295.22,
+        "feels_like": 295.52,
+        "temp_min": 295.22,
+        "temp_max": 295.22,
+        "pressure": 1011,
+        "humidity": 78,
+        "sea_level": 1011,
+        "grnd_level": 1011
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 6.17,
+        "deg": 320
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1742667914,
+    "sys": {
+        "type": 1,
+        "id": 2419,
+        "country": "SN",
+        "sunrise": 1742627544,
+        "sunset": 1742671246
+    },
+    "timezone": 0,
+    "id": 2253354,
+    "name": "Dakar",
+    "cod": 200
+}
